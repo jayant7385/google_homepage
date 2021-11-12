@@ -1,0 +1,160 @@
+#bdy{
+    margin: 0%;
+    padding: 0%;
+}
+.hder{
+  width: 100%;
+}
+#top{
+    list-style: none;
+    margin-top: -5px;
+}
+#navi{
+    float: right;
+}
+#top li{
+    display: inline-block;
+    padding: 12px;
+}
+.links{
+    color: black;
+    text-decoration: none;
+}
+#top #bton{
+    background: rgb(26, 115, 232);
+    height: 20px;
+    width: 70px;
+    margin-right: 15px;
+    border-radius: 4px;
+    font-weight: lighter;
+    padding: 8px;
+    color: white;
+   text-align: center; 
+    margin-top: 15px;
+    text-decoration: none;
+}
+
+   
+
+.links:hover{
+  text-decoration: underline;
+}
+
+
+#logo{
+    position: relative;
+    text-align: center;
+    display: block;
+    padding: 1px;
+    width: 300px;
+    top: 85px;
+    left: 37%;
+}
+.search{
+    text-align: center;
+    margin-top: 100px;
+}
+#txt{
+    width: 650px;
+    height: 35px;
+    border-radius: 20px;
+    border: 1px rgb(212, 212, 212) solid;
+}
+#tosearch:hover{
+
+}
+.button{
+    text-align: center;
+    margin-top: 25px;
+
+}
+#GoogleSearch{
+    background-color: #f8f9fa;
+ height: 35px;
+ border: #f8f9fa solid;
+}
+#Lucky{
+    background-color: #f8f9fa;
+ height: 35px;
+ border: #f8f9fa solid;
+}
+.tag{
+    text-decoration: none;
+    text-align: center;
+    margin-right: 35px;
+    margin-top: 75px;
+}
+.tag a{
+    margin-left: 8px;
+    font-size: 15px;
+    color: blue;
+    text-decoration: none;
+
+}
+.tag a:hover{
+    text-decoration: underline;
+}
+#lan{
+    font-size: 15px;
+}
+.dwn{
+    width: 100%;
+    height: 75px;
+    background-color: #eeeeee;
+}
+.dwn #ind{
+    position: relative;
+    top: 18px;
+    left: 33px;
+    font-size: 17px;
+    color: #6d6d6d;
+    font-family: arial,sans-serif;
+}
+.dwn2{
+    position: relative;
+
+    height: 60px;
+    background-color: #eeeeee;
+    top: -16px;
+    border: #cccccc solid;
+    border-width: 1px;
+    
+}
+   .dwn2 ul li{
+    font-family: arial,sans-serif;
+position: relative;
+top: 5px;
+    display: inline;
+    padding-left: 40px;
+    color: #6d6d6d;
+}
+.dwn3 ul li{
+    font-family: arial,sans-serif;
+   
+    display: inline;
+    padding-right: 40px;
+    color: #6d6d6d;
+
+}
+.dwn3{
+    position: relative;
+    left: 650px;
+    top: -70px;
+
+}
+
+.new{
+    text-decoration: none;
+    color: #6d6d6d;
+}
+.new:hover{
+    text-decoration: underline;
+}
+
+#dnlink li>a:hover{
+    text-decoration: underline;
+}
+#Lucky{
+    position: relative;
+    left: 10px;
+}
