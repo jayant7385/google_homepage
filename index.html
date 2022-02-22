@@ -1,70 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Google Homepage</title>
-  <link rel="stylesheet" href="style.css">
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Document</title>
+ <link href="style.css" rel="stylesheet" />
 </head>
-<body id="bdy">
-  <header class="hder">
-    <nav id="navi">
-    <ul id="top">
-      <li><a href="" class="links">Gmail</a></li>
-      <li><a href=""  class="links">Images</a></li>
-      <li id="bton"><a href="" id="bton">Sign in</a></li>
-    </ul>
-  </nav>
-  </header>
-  <main>
-    <div class="pic">
-      <img id="logo" src="newgoo.jpg" alt="google image">
-    </div>
-    <div class="search">
-      <form id="tosearch"></form>
-      <input type="text" id="txt">
-    </div>
-    <div class="button">
-      <input type="submit" value="Google Search" id="GoogleSearch">
-      <input type="submit" value="I'm Feeling Lucky" id="Lucky">
-    </div>
-    <div class="tag">
-     
-      
-        Google offered in:
-            <a href="/hindi">हिन्दी</a>
-            <a href="/bangla">বাংলা</a>
-            <a href="/telugu">తెలుగు</a>
-            <a href="/marathi">मराठी</a>
-            <a href="/tamil">தமிழ்</a>
-            <a href="/gujrati">ગુજરાતી</a>
-            <a href="/kannada">ಕನ್ನಡ</a>
-            <a href="/malayalm">മലയാളം</a>
-            <a href="/punjabi">ਪੰਜਾਬੀ</a>
+<body>
+ <nav>
+      <a href="#">Gmail</a>
+      <a href="#">Images</a>
+      <img src="img/g-menu.png">
+      <button>Sign in</button>
+ </nav>
   
-    </div>
-  </main>
-    <footer>
-      <div class="dwn">
-        <p id="ind">India</p>
-      </div>
-     
-      <div class="dwn2">
-        <ul id="dnlink">
-      <li><a href="" class="new">About</a></li>
-      <li><a href="" class="new">Advertising</a></li>
-      <li><a href="" class="new">Business</a></li>
-      <li><a href="" class="new">How Search Works</a></li>
-        </ul>
-      </div>
-        <div class="dwn3">
-          <ul id="dnlink2">
-            <li><a href="" class="new">Privacy</a></li>
-            <li><a href="" class="new">Terms</a></li>
-            <li><a href="" class="new">Settings</a></li>
-          </ul>
+    <section class="section-1">
+      <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" class="logo">
+    
+        <div class="s-box">
+          <img src="img/search.svg" class="search-icon">
+          <input type="text" class="s-input" id="query">
+          <img src="img/vs.png" class="vs-icon">
+          <input type="submit" class="s-btn" value="Google Search" onclick="search()">
+          <input type="submit" class="s-btn" value="I'm Feeling Lucky">
         </div>
-    </footer>
+      
+ 
+      <div class="lang">
+      Google is offered in: 
+            <a href="">ગુજરાતી</a>
+            <a href=>हिन्दी</a>
+            <a href=>বাংলা</a>
+            <a href=>తెలుగు</a>
+            <a href=>मराठी</a>
+            <a href=>தமிழ்</a>
+            <a href=>ಕನ್ನಡ</a>
+            <a href=>മലയാളം</a>
+            <a href=>ਪੰਜਾਬੀ</a>
+      </div>
+    </section>
+  
+        <footer>
+          <h4>India</h4>
+          <div class="links">
+            <div class="link-1">
+              <a href="#">Advertising</a>
+              <a href="#">Business</a>
+              <a href="#">About</a>
+              <a href="#">How Search works</a>
+            </div>
+            <div class="link-2">
+              <a href="#">Privacy</a>
+              <a href="#">Terms</a>
+              <a href="#">Settings</a>
+            </div>
+          </div>
+        </footer>
+ </div>
 </body>
+
+<script>
+  function search() {
+    var query = document.getElementById("query").value;
+    window.open("https://www.google.com/search?q=" + query, "_blank");
+  }
+</script>
 </html>
